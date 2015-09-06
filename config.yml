@@ -1,0 +1,49 @@
+---
+cache_dir: ~/Library/Caches/battleschool
+
+sources:
+  # local:
+  #   - playbook.yml
+
+  # url:
+  #   - name: playbook.yml
+  #     url: https://db.tt/VcyI9dvr
+
+  git:
+    - name: 'homebrew'
+      repo: 'https://github.com/wchrisjohnson/ansible-osx'
+      playbooks:
+         - homebrew.yml
+
+  git:
+    - name: 'base'
+      repo: ''
+      playbooks:
+
+  git:
+    - name: 'osx'
+      repo: 'https://github.com/wchrisjohnson/ansible-osx'
+      playbooks:
+         # - vagrant.yml
+         # - virtualbox.yml
+         # - alfred.yml
+         # - chrome-beta.yml
+         # - dropbox.yml
+         # - karabiner.yml
+         # - intellij-idea-ultimate13.yml
+         # - java7.yml
+         # - java6.yml
+         # - iterm2.yml
+         - macvim.yml
+         # - better-touch-tool.yml
+         # - adium.yml
+         # - github.yml
+         # - gitx.yml
+         # - libreoffice.yml
+         # - seil.yml
+         # - spectacle.yml
+         # - sequel-pro.yml
+         # - skype.yml
+         # - truecrypt.yml
+         # - usb-overdrive.yml
+         # - xtra-finder.yml
