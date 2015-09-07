@@ -24,25 +24,26 @@
       with_items:
           - coreutils
           - git
-          # - maven
-          # - dos2unix
-          # - tomcat
           - wget
-          # - ctags
-          # - dnsmasq
           - httpie
 		  - htop-osx
 		  - tree
-          # - mackup
-          # - node
-          # - rbenv
-          # - ruby
-          # - redis
-          # - mongodb
-          # - rabbitmq
-          # - zookeeper
-          # - cloudfoundry-cli
-          # - brew-cask
+
+	# - maven
+	# - dos2unix
+	# - tomcat
+	# - ctags
+	# - dnsmasq
+	# - mackup
+	# - node
+	# - rbenv
+	# - ruby
+	# - redis
+	# - mongodb
+	# - rabbitmq
+	# - zookeeper
+	# - cloudfoundry-cli
+	# - brew-cask
 
 
     # requires node/npm from above
