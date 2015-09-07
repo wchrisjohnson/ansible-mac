@@ -42,7 +42,7 @@
           # - rabbitmq
           # - zookeeper
           # - cloudfoundry-cli
-          - brew-cask
+          # - brew-cask
 
 
     # requires node/npm from above
