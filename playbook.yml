@@ -26,8 +26,8 @@
           - git
           - wget
           - httpie
-		  - htop-osx
-		  - tree
+          - htop-osx
+          - tree
 
 	# - maven
 	# - dos2unix
