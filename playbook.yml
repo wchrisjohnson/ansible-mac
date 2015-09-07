@@ -3,20 +3,13 @@
 
   tasks:
     - name: print from playbook
-      debug: msg="in playbooks/playbook.yml"
-
-    - name: easy install pip
-      easy_install: name=pip
-      sudo: yes
+      debug: msg="in wchrisjohnson-ansible-mac/playbook.yml"
 
     - name: install apps from pip
       pip: name={{item}}
       sudo: yes
       with_items:
           - virtualenv
-          #- cliff
-          #- pyyaml
-          #- awscli
 
     # - name: install homebrew_taps
     #   homebrew_tap: tap={{item}} state=present
@@ -38,6 +31,8 @@
           # - ctags
           # - dnsmasq
           - httpie
+		  - htop-osx
+		  - tree
           # - mackup
           # - node
           # - rbenv
@@ -74,7 +69,6 @@
 
     # - name: Install z.sh
     #   get_url: url=https://raw.githubusercontent.com/rupa/z/master/z.1 dest=/usr/local/share/man/man1/
-
 
     # - name: install gems
     #   gem: name={{item}} state=latest
